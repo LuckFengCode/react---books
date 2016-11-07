@@ -1,0 +1,46 @@
+*{
+	padding:0;
+	margin:0;
+	bordre:0;
+}
+.wrap{
+	margin-top:20px;
+	background-color: #ccc;
+}
+a{
+	text-decoration:none;
+	font-weight：bold;
+	color:#fff;
+}
+.catalist{
+	float : left;
+	width: 200px;
+	background-color: green;
+}
+.catalist ul{
+	padding-top:20px;
+}
+.catalist ul li a{
+	display: block;
+	text-align: center;
+	height:40px;
+	line-height:40px;
+}
+.catalist ul li a:hover{
+	background-color: pink;
+}
+.content{
+	margin-left: 200px;
+	width:auto;
+	background-color: #fff;
+}
+.content ul{
+	display: flex;
+	flex-wrap:wrap;
+}
+.content ul li{
+	list-style:none;
+	width:33%;
+	height:340px;
+	text-align:center;
+}
